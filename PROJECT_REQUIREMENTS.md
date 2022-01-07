@@ -30,11 +30,11 @@ Pull data from the data service, and serve it to the strategy implementation tea
 
 ```graphql
 equity (name: "AAPL", 
-				market: "NYSE", 
-				timestep_start:1641599038, 
-				timestep_end:1641109438, 
-				resolution: "m",
-				resolution_weight: 5
+	market: "NYSE", 
+	timestep_start:1641599038, 
+	timestep_end:1641109438, 
+	resolution: "m",
+	resolution_weight: 5
 ) {
 
 datamembers {

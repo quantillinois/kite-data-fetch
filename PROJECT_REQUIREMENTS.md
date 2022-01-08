@@ -38,9 +38,9 @@ equity (name: "AAPL",
 ) {
 
 datamembers {
-	timestamp
-	close
-	volume
+    timestamp
+    close
+    volume
 }
 ```
 
@@ -48,8 +48,8 @@ datamembers {
 
 ```graphql
 {
-	timestamp: [1641109438, 1641109439, 1641109440]
-	close: [111.55, 111.65, 111.75]
+  timestamp: [1641109438, 1641109439, 1641109440]
+  close: [111.55, 111.65, 111.75]
 }
 ```
 
@@ -57,19 +57,19 @@ datamembers {
 
 ```graphql
 type Equity {
-	name: String
-	market: String
+  name: String
+  market: String
   timestep_start: Int
   timestep_end: Int
   resolution: String
-	resolution_weight: Int
-	datamembers: {
-		timestamp: [Int]
-		high: [Float]
-		low: [Float]
-		close: [Float]
-		open: [Float]
-		volume: [Float]
-	}
+  resolution_weight: Int
+  datamembers: {
+    timestamp: [Int]
+    high: [Float]
+    low: [Float]
+    close: [Float]
+    open: [Float]
+    volume: [Float]
+  }
 }
 ```

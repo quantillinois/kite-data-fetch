@@ -1,0 +1,4 @@
+FROM python3.8
+
+ENV API_KEY=
+ENV ACCESS_TOKEN=
